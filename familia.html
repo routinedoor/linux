@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/info.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Linux</title>
+</head>
+<body>
+    
+    <div class="page">
+        <div class="content-home">
+            <div id="arrow">
+                <a href="#top"><span style='font-size:90px;'>&#8617;</span>
+                Înapoi sus</a>
+            </div>
+            <div class="information-wrapper">
+                
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#UNIX">1. <span style="color: rgb(0, 204, 0)">UNIX</span></a></li>
+                        <li><a href="#Linux">2. <span style="color: orange">Linux</span></a></li>
+                        <li><a href="#MacOS">3. <span style="color: rgb(104, 200, 238)">MacOS</span></a></li>
+                    </ul>
+                </div>
+                
+                <div id="UNIX">
+                    <h1><span style="color: rgb(0, 204, 0)">UNIX</span></h1>
+                    <div style="display: block;">
+                        <p>UNIX® este un sistem de operare inițiat de un grup de programatori de la AT&T Bell Labs, printre care Ken Thompson, Dennis Ritchie, Brian Kernighan, Douglas McIlroy și Joe Ossanna. Astăzi există mai multe variante (implementări) ale sistemului, acestea fiind dezvoltate atât de firme comerciale cât și de indivizi și organizații non-profit (precum Free Software Foundation).</p>
+                        <p>Trademark-ul UNIX aparține organizației The Open Group care îndeplinește rolul de standardizare și certificare. Oficial, poate fi numit UNIX doar un sistem de operare care a trecut de certificarea Single Unix Specification a acestei organizații. O mare parte din producători (mai ales cei non-profit) au ales, atât din cauza prețului cât și din cauza dezvoltării foarte rapide a distribuției lor, să nu-și certifice sistemele. Acestea, cu toate că sunt perfect sau aproape perfect compatibile cu standardul, sunt numite în mod comun „compatibile UNIX”, U*ix sau *nix. Astfel de sisteme nu sunt cu nimic inferioare celor certificate, iar în momentul de față dețin supremația din punct de vedere al bazei instalate.</p>
+                        <div style="text-align: center;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Version_7_Unix_SIMH_PDP11_Emulation_DMR.png" alt="">
+                        </div>
+                    </div>
+                    
+                    
+                    <h2>Prezentare generală</h2>
+                    <p>Sistemul de operare Unix este folosit pe scară largă atât pentru servere cât și pentru stații de lucru. Mediul de dezvoltare Unix și modelul de programare client-server au fost esențiale în dezvoltarea Internetului și trecerea de la sistemele de calculatoare individuale la sistemele de calculatoare în rețea.</p>
+                    <p>Atât Unix-ul cât și limbajul de programare C au fost dezvoltate de AT&T și distribuite guvernului și instituțiilor academice, ceea ce a dus la portarea lor pe un număr mai mare de calculatoare diferite decât orice alt sistem de operare. Astfel, UNIX-ul a devenit în informatică sinonim cu noțiunea de sistem deschis (open system).</p>
+                    <p>Sistemul de operare UNIX a fost conceput de la bun început ca portabil, multi-user și multi-tasking, și este caracterizat de următoarele concepte informatice de bază: datele sunt stocate în format text simplu într-un sistem de fișiere ierarhic; dispozitivele și toate elementele IPC (inter-process communication) sunt văzute ca fișiere; se folosește pe larg linia de comandă; în loc de programe monolitice masive se preferă programe simple care au o singură funcție, aceste programe fiind cascadate folosind facilitatea pipe pentru a obține funcționalitatea dorită.</p>
+                    <p>Sistemul UNIX constă din totalitatea acestor programe și a unui program master care controlează sistemul. Acest program poartă numele de nucleu sau kernel și oferă servicii precum: pornirea și oprirea altor programe; accesul la sistemul de fișiere; gestionarea resurselor și dispozitivelor hardware, etc.</p>
+
+                    <h2>Distribuții</h2>
+                    <p>Sistemele UNIX actuale se bazează pe trei ramuri originale - UNIX System V (produs de cei de la AT&T la mijlocul anilor 1980), BSD (ramură desprinsă din proiectul AT&T la sfârșitul anilor 1970) și respectiv GNU/Linux (produs ca replică gratuită și open-source la celelalte două ramuri - nucleul e dezvoltat de Linus Torvalds începând cu 1991, iar o mare parte din aplicații sunt date de Proiectul GNU). Fiecare distribuție de astăzi se bazează pe una din aceste ramuri, dar a preluat și anumite caracteristici de la celelalte.</p>
+                    <p>Principalele tipuri de distribuții UNIX aflate în producție la ora actuală sunt:</p>
+                    <ul>
+                        <li>Solaris - Produs de firma Sun Microsystems. Este distribuit atât în versiune closed-source cât și in versiune open source numită Open Solaris. Rulează pe arhitectura SPARC, IA-32 și x86-64.</li>
+                        <li>HP-UX - Produs de firma HP. Rulează pe arhitectura PA-RISC și IA-64.</li>
+                        <li>AIX - Produs de firma IBM. Rulează pe arhitectura PowerPC și POWER.
+                        </li>
+                        <li>IRIX - Produs de firma SGI. Rulează pe arhitectura MIPS.</li>
+                        <li>MacOS X - Produs de compania Apple pentru calculatoarele Macintosh. Este software comercial, bazat pe o combinație de FreeBSD, nucleul Mach și tehnologii specifice Apple. Rulează pe arhitectura PowerPC și x86.
+                        </li>
+                        <li>GNU - Produs de către proiectul GNU pentru a creea o alternativă liberă a sistemului UNIX. Mulți oameni se referă la sistemul GNU complet ca GNU/Hurd pentru a evidenția faptul că folosește nucleul Hurd și nu nucleul Linux. Rulează pe IA-32.</li>
+                        <li>Linux - Produs de multiple organizații într-o gama largă de distribuții, liber și open-source în baza licenței GPL (licența) și, în majoritatea cazurilor, disponibil gratuit. Rulează pe diverse arhitecturi, incluzând IA-32, x86-64, IA-64, PowerPC, MIPS, PlayStation 2. Majoritatea distribuțiilor Linux îl distribuie împreună cu utilitățile sistemului de operare GNU, ceea ce îi face pe mulți oameni să se refere la aceste distribuți ca GNU/Linux. Dintre distribuțiile Linux cele mai importante amintim: Arch, Debian GNU/Linux, Fedora, Gentoo, Knoppix, Mandrake Linux, Parabola, Red Hat Linux, Slackware, SuSE Linux și Ubuntu.</li>
+                        <li>BSD - Astăzi open-source, și disponibil în trei distribuții principale: FreeBSD, NetBSD și OpenBSD. NetBSD rulează pe 54 de arhitecturi diferite, fiind portat inclusiv pe un microcontroller care controla un prăjitor de pâine.</li>
+                    </ul>
+
+                    <h2>Componente</h2>
+                    <div style="display: flex;">
+                        <img style="width: 40%;" src="https://upload.wikimedia.org/wikipedia/ro/f/f4/Liniecomandaunix.png" alt="">
+                        <p style="padding: 40px;">Sistemele UNIX sunt construite din mai multe niveluri concentrice de software, conținând fiecare o serie de componente. Un sistem UNIX conține, pe lângă nucleu (kernel), un interpretor de comenzi care servește și drept limbaj de scripting (numit shell), un set de biblioteci tipice, o serie de aplicații canonice și cod sursă pentru portabilitate. Nu este necesar ca distribuțiile să conțină aceleași programe sau comenzi - ci doar să respecte anumite standarde și să aibă un comportament previzibil și similar - astfel, kernelul Solaris nu este același cu kernelul HP-UX, iar shell-ul standard de pe un sistem poate fi complet diferit de cel de pe alt sistem (populare sunt shellurile bash - Bourne Again Shell, ksh - Korn Shell, C Shell și tcsh).</p>
+                    </div>
+                    
+                    <h3>Componența generală a sistemelor UNIX este :</h3>
+
+                    <h3>Kernel</h3>
+                    <p>În general, UNIX folosește un nucleu monolitic care are posibilitatea de a încărca module suplimentare. Aceasta este o trăsătură comună a nucleelor UNIX începând cu System 5 și până în ziua de astăzi în distribuțiile Linux și BSD. Nucleul Hurd este o excepție de la această regula, fiind un micronucleu.</p>
+
+                    <h3>Mediu de dezvoltare</h3>
+                    <p>UNIX are un mediu suficient pentru a reconstrui tot sistemul direct din codul sursă. Canonice sunt un compilator de C (cc), un assembler (as) , un linker pentru combinarea fișierelor obiect (ld), un set tipic de biblioteci pentru limbaj (lib), un sistem de automatizare a compilării (make), și eventual alte limbaje de programare și scripting (C, C++, Java, Perl, Python, Fortran, COBOL, Pascal), programe de arhivare (ar, tar, gzip, bz2, xz, zip, rar, p7zip), unelte pentru dezvoltarea de compilatoare etc.</p>
+                    <!-- Table -->
+                    <style type="text/css">
+                        .tg  {border-collapse:collapse;border-spacing:0;}
+                        .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+                          overflow:hidden;padding:10px 5px;word-break:normal;}
+                        .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+                          font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+                        .tg .tg-5ly0{border-color:inherit;color:#36C;text-align:left;vertical-align:top}
+                        .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+                        .tg .tg-jtrm{border-color:inherit;color:#202122;font-weight:bold;text-align:left;vertical-align:top}
+                        </style>
+                        <table class="tg">
+                        <thead>
+                          <tr>
+                            <th class="tg-0pky"></th>
+                            <th class="tg-0pky">Mediul de dezvoltare UNIX</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="tg-jtrm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#202122;background-color:transparent">Limbaje de programare:</span></td>
+                            <td class="tg-5ly0"><a href="https://ro.wikipedia.org/wiki/Limbajul_C"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">C</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/C%2B%2B"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">C++</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/Limbajul_Java"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">Java</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent">| </span><a href="https://ro.wikipedia.org/wiki/Fortran"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">Fortran</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/COBOL"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">COBOL</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/Pascal_(limbaj_de_programare)"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">Pascal</span></a></td>
+                          </tr>
+                          <tr>
+                            <td class="tg-jtrm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#202122;background-color:transparent">Limbaje de scripting:</span></td>
+                            <td class="tg-5ly0"><a href="https://ro.wikipedia.org/wiki/Bash"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">shell</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/AWK"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">AWK</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/Perl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">Perl</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/Python"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">Python</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/PHP"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">PHP</span></a></td>
+                          </tr>
+                          <tr>
+                            <td class="tg-jtrm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#202122;background-color:transparent">Unelte:</span></td>
+                            <td class="tg-5ly0"><a href="https://ro.wikipedia.org/wiki/GCC"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">gcc</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/w/index.php?title=GNU_Assembler&action=edit&redlink=1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#D33;background-color:transparent">GNU Assembler</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/GDB"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">GDB</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/w/index.php?title=Make&action=edit&redlink=1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#D33;background-color:transparent">make</span></a></td>
+                          </tr>
+                          <tr>
+                            <td class="tg-jtrm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#202122;background-color:transparent">Arhivare:</span></td>
+                            <td class="tg-5ly0"><a href="https://ro.wikipedia.org/wiki/Ar"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">ar</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/Tar"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">tar</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/w/index.php?title=Gzip&action=edit&redlink=1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#D33;background-color:transparent">gzip</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/w/index.php?title=Bz2&action=edit&redlink=1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#D33;background-color:transparent">bz2</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/w/index.php?title=Xz&action=edit&redlink=1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#D33;background-color:transparent">xz</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/w/index.php?title=Zip&action=edit&redlink=1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#D33;background-color:transparent">zip</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/w/index.php?title=Rar&action=edit&redlink=1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#D33;background-color:transparent">rar</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/P7zip"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">p7zip</span></a></td>
+                          </tr>
+                          <tr>
+                            <td class="tg-jtrm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#202122;background-color:transparent">Revision control:</span></td>
+                            <td class="tg-5ly0"><a href="https://ro.wikipedia.org/wiki/Apache_Subversion"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">Subversion</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/Git"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">Git</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/Mercurial"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">Mercurial</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/Revision_Control_System"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">RCS</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/Concurrent_Versions_System"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">CVS</span></a></td>
+                          </tr>
+                          <tr>
+                            <td class="tg-jtrm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#202122;background-color:transparent">Editoare de text:</span></td>
+                            <td class="tg-5ly0"><a href="https://ro.wikipedia.org/wiki/Ed"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">ed</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/w/index.php?title=Vi&action=edit&redlink=1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#D33;background-color:transparent">vi</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/Vim"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">vim</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/wiki/Emacs"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#36C;background-color:transparent">emacs</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/w/index.php?title=Pico&action=edit&redlink=1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#D33;background-color:transparent">pico</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/w/index.php?title=Nano&action=edit&redlink=1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#D33;background-color:transparent">nano</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/w/index.php?title=Micro&action=edit&redlink=1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#D33;background-color:transparent">micro</span></a><span style="font-weight:400;font-style:normal;text-decoration:none;color:#202122;background-color:transparent"> | </span><a href="https://ro.wikipedia.org/w/index.php?title=Joe&action=edit&redlink=1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#D33;background-color:transparent">joe</span></a></td>
+                          </tr>
+                        </tbody>
+                        </table>
+                        
+                        <h3>Interfață grafică</h3>
+                        <div style="display: flex; ">
+                            
+                            <div style="padding: 10px;">
+                                <p>O distribuție modernă UNIX vine cu un server grafic (X11 sau X Server), care implementează sistemul de ferestre și controlează tastatura și mausul. X11 s-a impus de la bun început ca standard de interfață grafică pentru sistemele UNIX. Cea mai des folosită implementare de server X11 este cea a Fundației X.Org și este folosită atât de distribuțiile libere BSD și Linux, cât și de versiunile UNIX proprietare cum ar fi Solaris de la Sun Microsystems.</p>
+                                <p>X11 nu specifică modul în care trebuie să arate ferestrele și elementele grafice de pe ecran. Acestea se particularizează cu ajutorul unui manager de ferestre și/sau a unui mediu desktop. Primul astfel de sistem de particularizare a fost OPEN LOOK. Dezvoltat la sfârșitul anilor 1980 de AT&T, Sun Microsystems și XEROX, a încercat să se impună ca un standard fără să reușească. Alternativa s-a numit Motif și a fost dezvoltată de o serie de firme competitoare. În ziua de azi, OPEN LOOK și Motif sunt foarte rar folosite, și au fost înlocuite de noi medii grafice precum GNOME, KDE, MATE, Cinnamon, xfce, etc.</p>
+                            </div>
+                            <img style="width: 40%;" src="https://upload.wikimedia.org/wikipedia/commons/4/41/PC-BSD_screen_shot.jpg" alt="">
+                           
+                        </div>
+                        
+
+                </div>
+                <div id="Linux">
+                    <h1><span style="color: orange">Linux</span></h1>
+                    <div style="display: flex;">
+                        <div style="width: 5000px; text-align: center;">
+                            <img  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="">
+                            <figcaption>Tux, mascota Linux</figcaption>
+                        </div>
+                        <div>
+                            <p>Linux este o familie de sisteme de operare de tip Unix-like care folosesc Nucleul Linux (în engleză kernel). Linux poate fi instalat pe o varietate largă de hardware, începând cu telefoane mobile, tablete, console video, continuând cu calculatoare personale până la supercomputere. Linux este cunoscut în principal pentru utilizarea sa ca server, în 2009 i se estima o cotă de piață între 20-40%. Cota de piață de desktop este estimată între 1-2% și 4.8%. În ultimii ani, Linux a început să devină tot mai popular atât datorită unor distribuții precum Ubuntu, openSUSE, Fedora, precum și datorită apariției netbook-urilor și a noii generații de telefoane inteligente (în engleză smart phone) care rulează o versiune încorporată de Linux.</p>
+                            <p>Nucleul Linux a fost dezvoltat inițial pentru microprocesorul Intel 386, dar în prezent rulează pe o mare gamă de microprocesoare și arhitecturi de calculatoare. Este folosit pe calculatoare de tip personal, servere, pe supercomputere, dar și pe sisteme înglobate (embedded ), cum ar fi unele telefoane mobile sau recordere video.</p>
+                            <p>Sistemele Linux includ nucleul, bibliotecile de sistem, bibliotecile de dezvoltare și un număr (de obicei destul de ridicat) de programe utilitare și aplicații, servere grafice (X), sisteme de ferestre și spații de lucru (KDE, Gnome, Cinnamon, Fluxbox, Xfce, LXQt, MATE etc.), navigator web (Firefox, Lynx, Konqueror), aplicații și suite de aplicații „de birou” (LibreOffice), program de prelucrare grafică (Gimp), program de configurare, servere de web etc. Instalarea programelor noi se poate face fie prin compilare directă, fie prin intermediul pachetelor, care verifică existența și disponibilitatea altor programe necesare pe sistem înainte de a instala noul program. Managerele de pachete moderne asigură descărcarea pachetelor lipsă necesare (dacă este cazul) și instalarea lor automată „dintr-un clic”. Sistemele moderne Linux au atât capacități multimedia avansate, (grafică 3D accelerată hardware, sunet surround, suport pentru tehnologie bluetooth etc.), cât și suport pentru hardware mai vechi, fiind adaptabile și scalabile în funcție de necesități.</p>
+
+                        </div>
+                    </div>
+
+                    <p>Fiind un sistem Unix-like, Linux prezintă două caracteristici specifice:</p>
+                    <ul>
+                        <li>este un sistem ierarhic, există un singur director rădăcină din care pleacă toate directoarele și care este întotdeauna montat</li>
+                        <li>are o structură bazată pe funcția fișierelor, nu subordonată programelor. Componentele unui program sunt răspândite în sistem și funcție de rolul lor (bibliotecile într-un director de biblioteci sau executabilele într-un director de executabile).</li>
+                    </ul>
+
+                    <div style="display: block; margin: auto; text-align: center;">
+                        <img style=" width: 40%;" src="https://upload.wikimedia.org/wikipedia/commons/9/98/KDE_Plasma_5.18_GUI_under_freshly_installed_Arch_Linux.png" alt="">
+                        <figcaption>Linux rulând cu intefața grafică KDE Plasma 5</figcaption>
+                    </div>
+
+                    <h2>Scurt istoric</h2>
+                    <p>Dezvoltarea sistemului a fost începută de către inginerul finlandez Linus Torvalds, care inițial dorea să obțină un sistem similar cu Minix, care este tot Unix-like, dar fără limitările acestuia. Torvalds a scris un kernel care să lucreze pe platformele AT-386 și 484 având la bază conceptele din cartea Operating System a lui Andrew Tanenbaum.<br>
+                        Pe 25 august 1991, Linus Torvalds anunță că lucrează la un sistem de operare gratuit, prin intermediul unui mesaj către comp.os.minix Usenet, grupurile de discuții Minix:<br><br>
+                        <i>«De la: Linus Benedict Torvalds Newsgroup: comp.os.minix<br>
+                        Subiect: Ce ați dori să vedeți cel mai mult în minix?<br>
+                        Sumar: mic sondaj pentru noul meu sistem de operare.<br>
+                        ID-Mesaj:<><br>
+                        Data: 25 Aug 91 20:57:08 GMT<br>
+                        Organizație: Universitatea din Helsinki<br>
+                        Salutări tuturor celor care folosesc Minix. Construiesc un sistem de operare (gratuit) (doar un hobby, nu o să fie la fel de mare și profesionist ca GNU) pentru clone AT 386 (486). Lucrez la el din aprilie și e aproape gata. Aș vrea să primesc feed-back cu lucrurile care vă plac/nu plac în Minix, deoarece sistemul meu de operare se aseamănă într-o oarecare măsură cu Minix (aceeași structură a sistemului de fișiere (datorită unor rațiuni practice) printre altele). Am portat bash (1.08) și gcc (1.40), și lucrurile par să meargă. Asta înseamnă că o să obțin ceva practic în câteva luni și voiam să știu ce altceva ar mai dori lumea să conțină. Orice sugestie e binevenită, dar nu promit să o și implementez. Linus Torvalds.<br>
+                        P.S. Da - nu conține cod Minix și are un sistem de fișiere multi-threaded. Nu e portabil (folosește task-switching 386 etc) și probabil nu va suporta nimic altceva decât hard disk-uri AT, deoarece doar asta am.»<br></i><br>
+                        Linux 0.01 a fost lansat la 17 septembrie 1991 și a fost pus pe net. Versiunea 0.02 a apărut pe 5 Octombrie, împreună cu o nouă declarație a lui Torvalds:<br><br>
+                        <i>«De la: Linus Benedict Torvalds Newsgroups: comp.os.minix<br>
+                        Subiect: Surse kernel asemănător minixului gratuite pentru 386-AT<br>
+                        ID-Mesaj: <><br>
+                        Data: 5 Oct 91 05:41:06 GMT<br>
+                        Organizație: Universitatea din Helsinki»<br><br></i>
+                        Linux a fost dezvoltat sub Licența Publică Generală GNU GPL, astfel încât nu numai Linux însuși, dar și codul său sursă sunt disponibile tuturor celor interesați.<br>
+                        Inițial dezvoltat și utilizat de către programatori voluntari, Linux a câștigat suportul industriei IT și al marilor companii ca IBM, Hewlett-Packard, Dell, SunMicrosystems, Google, Novell sau Nokia, și a depășit ca folosire versiunile proprietare de Unix. Analiștii atribuie succesul sistemului faptului că este independent de furnizor, implementarea are un cost scăzut, iar securitatea și fiabilitatea sistemului sunt considerate de către specialiști drept foarte bune.</p>
+
+                    <h2>Nucleul Linux</h2>    
+                    <p>Nucleul (kernel-ul) Linux este un nucleu monolitic. Cu toate acestea, spre deosebire de multe alte nuclee monolitice, driverele se pot încărca în memoria de lucru la utilizare, și se pot șterge de acolo ulterior, eliberând resursele utilizate, fără a necesita resetarea sistemului sau recompilarea nucleului. Facilitățile oferite de nucleu includ, printre altele:</p>
+                    <ul>
+                        <li>multitasking real și complet,</li>
+                        <li>suport pentru memorie virtuală,</li>
+                        <li>distribuția executabilelor la scriere,</li>
+                        <li>management avansat al memoriei,</li>
+                        <li>suport avansat pentru TCP/IP (inclusiv rutare și filtrare),</li>
+                        <li>până la un miliard de procese simultane,</li>
+                        <li>sistem de sunet modularizat (OSS sau ALSA).</li>
+                        </ul>
+                    <p>Nucleul este scris integral în C și poate fi compilat folosind compilatorul GCC.</p>
+
+                    <h2>Distribuții Linux</h2>
+                    <div style="text-align: center;">
+                        <img style="width: 50%;" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ubuntu_22.10_Kinetic_Kudu.png" alt="">
+                        <figcaption>Ubuntu 22.10 Kinetic Kudu, o distribuție GNU/Linux</figcaption>
+                    </div>
+                    <p>Sistemele de operare bazate pe Linux sunt disponibile în general sub formă de "distribuții" (denumite mai rar și "arome"). Unele dintre acestea sunt orientate spre utilizatorul particular, altele către servere sau către utilizatorii cu calculatoare mai vechi. Câteva din cele mai folosite distribuții de Linux sunt:</p>
+                    <ul>
+                        <li><b>Ubuntu</b>, un proiect orientat spre utilizatorul obișnuit bazat pe Debian GNU/Linux, care a câștigat o mare popularitate prin faptul că este ușor de utilizat și configurat, fiind în același timp puternic și stabil. Distribuții înrudite: Kubuntu (folosește KDE), Xubuntu (folosește Xfce), Edubuntu (orientat spre aplicații pentru educație). În prezent, Ubuntu este cea mai populară distribuție Linux.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>openSUSE Leap</b> - o distribuție orientată atât spre servere cât și spre stații de lucru și desktopuri, care pune accentul pe ușurința în utilizare și configurare. Produsă de compania germană SuSE, parte a grupului Novell.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>Fedora</b>  (distribuție Linux) - născută din proiectul Red Hat Linux, dar conținând exclusiv software liber și disponibil gratuit de pe Internet.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>Debian GNU/Linux</b> , una din distribuțiile cele mai cuprinzătoare din Internet, conținând un număr uriaș de pachete. Creatorii proiectului au dezvoltat managerul de pachete APT și pachetele DEB.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>Linux Mint</b>  este o distribuție pentru calculatoare personale bazată pe Ubuntu și Debian</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>PCLinuxOS</b>  - o distribuție derivată din Mandriva Linux, destinată mediului desktop și care se remarcă prin usurința instalării, fiind adecvată pentru utilizatorii începători.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>Mandriva Linux (denumită anterior Mandrake Linux)</b>  - o distribuție ușor de utilizat, orientată spre utilizatorii desktop, creată de compania franceză Mandriva.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>Slackware Linux</b> , este una din cele mai vechi distribuții, având ca moto "Ține (lucrurile) simple". Distribuției îi lipsesc unelte de configurare ușoară, dar beneficiază de viteză mare de rulare, posibilitatea de a fi instalată pe hardware mai vechi și o organizare simplă a sistemului.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>Gentoo Linux</b> , o distribuție orientată spre performanțe maxime și destinată utilizatorilor avansați. Distribuția se remarcă prin timpul foarte lung necesar instalării, care necesită de regulă compilarea și optimizarea pachetelor pe sistemul pe care se face instalarea (spre deosebire de majoritatea distribuțiilor, care instalează software precompilat). Acest lucru are ca rezultat ulterior un spor de performanță, dar și o configurare mai dificilă. Gentoo beneficiază de un manager de pachete și de sistem foarte avansat denumit portage.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>Knoppix</b> , o distribuție „live” care rulează direct de pe CD sau DVD, fără a instala nimic pe discul dur, ce poate fi utilizată, printre altele, în călătorii, demonstrații sau pentru diagnosticări de sistem, reparări, recuperări de date etc.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>RedHat Linux</b>  - una din cele mai cunoscute distribuții, în prezent o distribuție comercială orientată exclusiv spre piața serverelor și spre mediul de afaceri. Este distribuția care a dat naștere proiectului Fedora Core.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>Slax</b> , o distribuție "live" bazată pe Slackware, care poate rula de pe suport optic (CD sau DVD) sau de pe o memorie Flash de 256 MB.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>NimbleX</b> , o distribuție "live" versatilă, produsă în România și bazată pe Slackware, care rulează direct de pe CD, mediu USB sau chiar și din rețea. Distribuția, deși nu ocupă mult spațiu, are o interfață grafică puternică și atractivă și include un număr mare de programe pentru navigarea pe Internet, editarea de documente, redare de conținut multimedia etc.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>TFM/GNU Linux</b>  - distribuție de Linux Server și Workstation 100% românească, stabilă, ușor de instalat și care nu necesită cunoștințe avansate de Linux. Produsă de compania TFM Group.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>Rogentos</b>  - o distribuție Românească bazată pe Sabayon Linux, stabilă, ușor de instalat și care este adresată atât utilizatorilor obișnuiți cât și celor avansați.</li>
+                        <p style="line-height: 1px;"></p>
+                        <li><b>Tiny Core Linux</b>  - având o dimensiune de doar 12 MB, acesta este probabil cel mai mic sistem de operare bazat pe nucleul Linux.</li>
+                        </ul>
+                        <p>Cele mai multe din distribuțiile de mai sus pot fi descărcate legal și gratuit de pe site-urile respective. Anumite distribuții vând manuale, sau seturi complete CD/DVD + manuale + suport tehnic + documentație aferentă.<br>
+                            Deși există numeroase distribuții, există utilizatori care preferă să își construiască un sistem Linux de la zero, folosind Linux From Scratch.<br>
+                            Cea mai nouă versiune a nucleului sistemului de operare Linux poate fi descărcată de pe site-ul oficial <a href="http://kernel.org">http://kernel.org</a>.</p>
+
+                    <h2>Diferențe dintre UNIX și Linux</h2>
+                    <ul>
+                        <li>Majoritatea sistemelor de operare Unix se bazează pe standardele POSIX (Portable Operating System Interface for UNIX). Linux nu se bazează direct pe POSIX, ci pe LSB (Linux Standard Base), care este superset de POSIX. LSB este urmat de majoritatea distribuțiilor Linux.</li>
+                        <li>UNIX a pornit drept un sistem de operare proprietar, comercial, asemenea Windows-ului. Ulterior au apărut și versiuni gratuite, de exemplu FreeBSD, OpenBSD și NetBSD. Linux este un sistem de operare gratuit și open-source de la prima versiune. Există și versiuni de Linux comerciale.</li>
+                        <li>Unix este o familie de sisteme de operare, printre care și Linux, iar Linux este o clasă de distribuții de sisteme de operare – care au în mare măsură același substrat – care sunt axate pe anumite activități (gestiunea resurselor server, mediul de dezvoltare multimedia etc.) sau pentru uzul general.</li>
+                        <li>Unix este dezvoltat și menținut de către variate companii și organizații non-profit, în timp ce Linux este dezvoltat și menținut de către o comunitate globală de programatori, care contribuie gratuit la dezvoltarea distribuțiilor, dacă aceasta este oferită gratuit, sau contra cost, dacă este comercial.</li>
+                        <li>În timp ce Linux poate fi folosit pe o varietate mare de sisteme (calculatoare personale, tablete, smartphone) cu întrebuințări extinse în mai toate ariile de utilizate a unui sistem de operare, Unix este folosit cu precădere pe servere (web, mail, cloud), având o popularitate mare în rândul universităților și companiilor mari.</li>
+                        <li>Datorită modului în care este menținut Linux, detectarea și remedierea problemelor de orice natură sunt realizate într-un timp rapid, în timp ce Unix necesită un timp mult mai mare de creare și lansare al actualizărilor.</li>
+                        </ul>
+                </div>
+                <div id="MacOS">
+                    <h1><span style="color: rgb(104, 200, 238)">MacOS</span></h1>
+                    <div style="text-align: center;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/OS_X_Logo.png" alt="">
+                    </div>
+                    
+                    <p>MacOS (înainte sub numele de OS X și Mac OS X) este un sistem de operare dezvoltat, comercializat și vândut de firma Apple pentru computerele sale de tip Macintosh. Începând din 2009, fiecare sistem Macintosh include preinstalată cea mai recentă versiune a acestui sistem de operare. macOS este succesorul sistemului de operare Mac OS original sau „clasic” , care a fost sistemul de operare principal al companiei Apple Computers (astăzi: Apple) încă din 1984. Spre deosebire de predecesorii săi, macOS este un sistem de operare bazat pe platforma Unix, construit pe tehnologiile dezvoltate la compania NeXT între 1985 și începutul anului 1996, când NeXT a fost achiziționat de către Apple. Versiunea 10.5 atunci când rulează pe procesoare Intel deține certificatul "UNIX 03".</p>
+                    <p>Prima versiune lansată a fost Mac OS X Server 1.0 în 1999, iar în martie 2001 a urmat versiunea „desktop” Mac OS X v10.0 (aici termenul "desktop" se referă la calculatoare relativ mici care au loc pe masa de lucru obișnuită). Până azi au mai fost lansate încă multe versiuni de tip "end-user" și "server", cea mai recentă fiind Mac OS X v10.8 din 25 iulie 2012. Versiunile de Mac OS X sunt supranumite după feline; de exemplu, Mac OS X v10.5 este de obicei numită „Leopard” (10.4 a fost numit „Tigru”, 10.3 era „Pantera” etc). Sistem de operare OS X 10.9 marchează începutul unei schimbări în schema de numire a OS X. Versiunea OS X 10.9 a sistemului de operare este numit Mavericks după o locație surfing în California de Nord.</p>
+                    <p>Versiunea server, Mac OS X Server, este din punct de vedere arhitectural foarte asemănătoare cu varianta sa desktop. Prin comparație ea mai include câteva unelte administrative (software) pentru managementul grupurilor sau pentru accesul simplificat la serviciile de rețea de bază. Aceste unelte includ un agent de e-mail, un server Samba, un server LDAP, un server de nume și altele. Este preinstalat pe echipamentele hardware de tip server Xserve de la Apple, dar poate fi rulat pe majoritatea modelelor de computere Apple.</p>
+                    <p>Apple mai produce și versiuni de macOS specializate pentru utilizarea pe următoarele articole de consum: Apple TV, Apple iPhone și Apple iPod Touch.</p>
+
+                    <div style="display: flex; text-align: center;">
+                        <div style="width: 50%; padding: 10px;">
+                            <img style="width: 100%;" src="https://techterms.com/img/xl/macos_243.png" alt="">
+                            <figcaption>macOS 12 Monterey desktop</figcaption>
+                        </div>
+                        <div style="width: 50%; padding: 10px;">
+                            <img style="width: 100%;" src="https://techterms.com/img/xl/macos_243-2.png" alt="">
+                            <figure>Mac OS 7 desktop</figure>
+                        </div>
+                        
+                    </div>
+                    <h2>Numele</h2>
+                    <p>Abrevierea sistemului de operare înseamnă (în engleză OS), litera X este una pentru numeralul roman 10 care se referă la succesiunea de sistemele anterioare de operare Macintosh ca Mac OS 8 și Mac OS 9. Apple a început folosirea poreclelor de feline odată cu eliberarea inițială a OS X. La început au fost nume de cod intern la Apple, dar în cele din urmă au devenit o parte din marketingul pentru sistemele de operare.</p>
+
+                    <h2>Caracteristici</h2>
+                    <p>Mac OS X 10.2 include driverele pentru anumite imprimante de la Canon, Epson, Hewlett-Packard și Lexmark. Tehnologia Quartz Extreme este nouă versiune de GPU accelerat a Compositor Quartz care a fost introdusă pentru prima oară în Mac OS X 10.2.</p>
+                    <p>Versiunea 10.3 a introdus Exposé care permite comutarea rapidă între ferestre și suportă configurarea scurtăturilor de la tastatură. A fost introdus FileVault care este o criptare opțională de fișiere cu Advanced Encryption Standard (AES-128). Aplicația Finder a introdus etichetele cu coduri de culori pentru a ușura procesul de găsire și de organizare a fișierele și folderelor.</p>
+                    <p>Caracteristici introduse în versiunea 10.4 au inclus Automator, o aplicație proiectată pentru a crea un flux de lucru automat pentru diferite sarcini. Tehnologia Spotlight a introdus pe Mac OS 8, dar permite adăugarea de inteligență la index și căutare. Dashboard este un grup de aplicații mici care poate fi solicitate și respinse într-o singură apăsare de tastă.</p>
+                    <p>Versiunea 10.5 are toate pictogramele de sistem sunt scalabile până la 512 × 512 pixeli, pentru a se adapta diferite locuri în care apar în dimensiuni mai mari. Mac OS X 10.5 include o tehnologie de backup automată numită Time Machine, care oferă posibilitatea de a vizualiza și de a restabili versiunile anterioare ale fișierelor și datelor aplicațiilor pe un hard disk intern sau extern.</p>
+
+                    <h2>Sistemul de fișiere</h2>
+                    <div style="text-align: center;">
+                        <img width="50%" src="https://help.apple.com/assets/61E886D6F626695C732DB165/61E886D7F626695C732DB16C/en_GB/f8c0881539c56b4873e2c4982c42962d.png" alt="">
+                        <figcaption>Disk Utility</figcaption>
+                    </div>
+                    <p>Disk Utility este o aplicație care este integrat în OS X care este un instrument care lucrează cu hard disk-uri.</p>
+                    <p>Sistemul de fișiere o altă variantă HFS Plus numit HFSX care a fost introdus în Mac OS X 10.3 cu caracteristici opționale jurnalizare.</p>
+                    <p>Mac OS X 10.6 include suport pentru compresia fișierelor în sistemul de fișiere HFS Plus, care se concentrează la reducerea greutății a fișierelor de sistem Apple integrat în aplicații, în condiții normale de utilizare. Cu actualizarea Mac OS X 10.6.5 este suportat sistemul de fișiere exFAT.</p>
+                    <p>În versiunea Mac OS X 10.7 (Lion), Apple a actualizat FileVault la starea de criptare completă a discului.</p>
+
+                    <h2>Medii de programare</h2>
+                    <p>Quartz 2D este un motor grafic bidimensional disponibil pentru dezvoltarea aplicațiilor iOS și macOS pentru toate mediile de aplicații din afara nucleului. <br><br> Quartz 2D asigură nivel scăzut, redare ușoră 2D de ieșire indiferent de afișare sau a dispozitivului de imprimare. Quartz 2D are rezoluția independentă de dispozitiv. Quartz 2D API este ușor de utilizat și oferă acces la caracteristici puternice cum ar fi straturile de transparență bazate pe cale de desen, de redarea în afara ecranului, gestionarea avansată a culorilor, randare anti-alias și crearea de documente PDF. Quartz 2D API este parte a cadrului Core Graphics, Quartz poate fi menționat ca Core Graphics sau CG. <br><br> Cocoa este un mediu de aplicații atât pentru sistemul de operare OS X și iOS, sistemul de operare utilizat pe dispozitivele Multi-Touch, cum ar fi iPhone, iPad și iPod touch. Acesta constă într-o suită de biblioteci software orientate pe obiect, un sistem de rulare și un mediu de dezvoltare integrat. <br><br> X Window System face posibilă rularea de aplicații bazate pe X11 în macOS. Pe baza proiectului open-source XFree86 - punerea în aplicare cele mai comune de X11 este compatibil cu macOS și complet integrată cu macOS. Acesta include tehnologiile complete X11 R6.6, X11 window server, Quartz window manager, biblioteci și utilități de bază ca xterm. <br><br> Fundația Core este o bibliotecă cu un set de interfețe de programare conceptual derivate din cadrul Objective-C pe bază de Fundația dar puse în aplicare în limbajul C. Pentru a face acest lucru, Core Fundatia implementeaza un model de obiect limitat în C. Core Fundația definește tipuri opace care încapsulează date și funcții, denumit în continuare "obiecte".</p>
+                    <br><br><br><br><br>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

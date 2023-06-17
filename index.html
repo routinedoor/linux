@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="pages.js"></script>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/8459552.png" type="image/x-icon">
+    <title>Linux - Rusu Darius 2023</title>
+</head>
+<body>
+    
+    <div class="page">
+        
+        <div id="menu">
+            <ul>
+                <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">ÎNCHIDE</a></li>
+                <li><a href="javascript:void(0)" onclick="goPage(1)">ACASA</a></li>
+                <li>&nbsp;</li>
+                <li><a href="javascript:void(0)" onclick="goPage(2)">Familia Linux/UNIX/MacOS</a></li>
+                <li><a href="javascript:void(0)" onclick="goPage(3)">Instalare Linux</a></li>
+                <li><a href="javascript:void(0)" onclick="goPage(4)">Instalare Fedora</a></li>
+                <li><a href="javascript:void(0)" onclick="goPage(5)">Norme de protectia Muncii</a></li>
+                <li><a href="javascript:void(0)" onclick="goPage(6)">Bibliografie</a></li>
+            </ul>
+            
+        </div>
+
+        
+
+        <div class="content-home" id="acasa">
+            <div class="header" id="top">
+                <a href="javascript:void(0)" class="openbtn" onclick="openNav()"><p>&#9776;</p></a>
+                <!-- <h1>Linux</h1> -->
+            </div>
+            <div class="subject">
+                <iframe src="./acasa.html" frameborder="0"></iframe>
+            </div>
+        </div>
+        
+        <div class="content-home" id="familia">
+            
+            <div class="header" id="top">
+                <a href="javascript:void(0)" class="openbtn" onclick="openNav()"><p>&#9776;</p></a>
+                
+                <h1>Familia <span style="color: orange">Linux</span>/<span style="color: rgb(0, 204, 0)">UNIX</span>/<span style="color: rgb(104, 200, 238)">MacOS</span></h1>
+            </div>
+            <div class="subject">
+                <iframe src="./familia.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="content-home" id="linux">
+            
+            <div class="header" id="top">
+                <a href="javascript:void(0)" class="openbtn" onclick="openNav()"><p>&#9776;</p></a>
+                
+                <h1>Instalarea unei distributii Linux</h1>
+            </div>
+            <div class="subject">
+                <iframe src="./linux.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="content-home" id="fedora">
+            
+            <div class="header" id="top">
+                <a href="javascript:void(0)" class="openbtn" onclick="openNav()"><p>&#9776;</p></a>
+                
+                <h1>Instalare Fedora</h1>
+            </div>
+            <div class="subject">
+                <iframe src="./fedora.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="content-home" id="munca">
+            
+            <div class="header" id="top">
+                <a href="javascript:void(0)" class="openbtn" onclick="openNav()"><p>&#9776;</p></a>
+                
+                <h1>Protectia Muncii</h1>
+            </div>
+            <div class="subject">
+                <iframe src="./munca.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="content-home" id="biblio">
+            
+            <div class="header" id="top">
+                <a href="javascript:void(0)" class="openbtn" onclick="openNav()"><p>&#9776;</p></a>
+                
+                <h1>Bibliografie</h1>
+            </div>
+            <div class="subject">
+                <iframe src="./bibliografie.html" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+<!-- <script>
+
+/* Set the width of the sidebar to 250px (show it) */
+function openNav() {
+  document.getElementById("menu").style.width = "25vw";
+  document.getElementById("arrow").style.display = "none";
+}
+
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("menu").style.width = "0";
+  document.getElementById("arrow").style.display = "flex";
+}
+
+var currentPage = "acasa";
+
+function goHome(){
+    document.getElementById(currentPage).style.display = "none";
+    document.getElementById("acasa").style.display = "block";
+    currentPage = "acasa";
+}
+
+function goFamilia(){
+    document.getElementById(currentPage).style.display = "none";
+    document.getElementById("familia").style.display = "block";
+    currentPage = "familia";
+}
+
+function goBiblio(){
+    document.getElementById(currentPage).style.display = "none";
+    document.getElementById("biblio").style.display = "block";
+    currentPage = "biblio";
+}
+
+</script> -->
